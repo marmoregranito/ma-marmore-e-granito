@@ -10,3 +10,9 @@
     color: #BFBFBF;
     color: #F2F2F2;
 }
+body{
+    background-image: linear-gradient( to right, #BFBFBF #404040);
+}
+h1{
+    color: #404040;
+}
