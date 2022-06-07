@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:ital,wght@1,400;1,500 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Lora:ital@1 & display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+:root{
+    color: #F2F2F2;
+    color: #989DA6;
+    color: #A68A72;
+    color: #593E2E;
+    color: #758C20;
+
+
+font-family: 'Lora', serifa;
+font-family: 'Playfair Display', serifa;
+}
+body{
+    background-image: linear-gradient(to right, #F2F2F2, #d2d9e6 );
+}
+header{
+    background-color: white;
+    box-shadow: 6px 2px rgba(0, 0, 0, 0.356);
+}
+header > h1{
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+header > p{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.363);
+}
+nav > a{
+    text-decoration: none;
+    color: #758C20;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-right: 6px;
+    margin: -1px;
+    
+}
+nav:hover > a{
+    background-color: #a6c72d;
+    color: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.281);
+}
+div#rec{
+    background-image: url("midias/2.png");
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 1400px;
+    height: 500px;
+}
+
+
+
+h1{
+    color: black;
+    font-size: 2em;
+    font-family:var(Playfair);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.363);
+    text-align: center;
+    padding: 20px;
+}
+p{
+    color: black;
+    padding: 20px;
+    text-align: justify;
+}
