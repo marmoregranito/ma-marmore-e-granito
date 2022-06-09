@@ -59,41 +59,37 @@ div#rec{
     background-color: rgb(253, 253, 253);
     background-image: url("midias/2.png");
     border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
-    width: 1340px;
+    background-size: 100% 100%;
+    width: 1330px;
     height: 500px;
     margin-left: 10px;
     margin-right: 10px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.315);
 }
-div.na{
-    
-    display: inline-block;
-}
-div.no{
-    
-    display: inline-block;
-    
-
-}
-div#aa{
-    
+div.let{
     border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
     max-width: 650px;
     max-height: 400px;
     margin: 10px;
     margin-top: 0px;
-   
     
-    
+    display: inline-block;
 }
-div#bb{
-    background-image: url("midias/marmore.jpg");
+div.mag{
+    
+    display: inline-block;
+    background-image: url("midias/1g.png");
+    background-size: 100% 100%;
     border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
     width: 650px;
     min-height: 300px;
     margin: 10px;
     
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.315);
+    }
+
+div#bb{
+    background-image: url("midias/1g.png");
 }
 article{
     background-color: #ffffff;
@@ -101,28 +97,19 @@ article{
     margin: auto;
 }
 div#cc{
-    background-image: url("midias/3.png");
-    border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
-    width: 650px;
-    min-height: 300px;
-    margin: 10px;
-    
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.31)
-}
-div#dd{
-    
-    border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
-    max-width: 650px;
-    max-height: 400px;
-    margin: 10px;
-    margin-top: 0px;
-    
+    background-image: url("midias/7g.png");
     
 }
-   
-
-
-
+div#ee{
+    background-image: url("midias/2g.png");}
+div#gg{
+    background-image: url("midias/3g.png");}
+div#mm{
+    background-image: url("midias/4g.png");}
+div#oo{
+    background-image: url("midias/5g.png");}
+div#ss{
+    background-image: url("midias/marmore.jpg");}
 h1{
     color: rgb(209, 87, 87);
     font-size: 3em;
@@ -137,7 +124,7 @@ h2{
     font-size: 1.7em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.363);
-    
+    text-align: center;
     padding: 20px;
     padding-top: 5px;
 }
@@ -169,9 +156,10 @@ p{
 }
 footer{
     text-align: center; 
-    background-color: #c93e3e;
+    background-color: #070707;
 }
 footer > p{
+    color:rgb(209, 202, 202);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
