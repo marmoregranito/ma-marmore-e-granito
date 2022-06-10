@@ -85,14 +85,14 @@ div.mag{
      background-size: 100% 100%;
     border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
     width: 650px;
-    min-height: 300px;
+    min-height: 400px;
     margin: 10px;
     box-shadow: inset 3px 5px rgba(0, 0, 0, 0.192);
-    background-attachment: fixed;
+    
     }
 
 div#bb{
-    background-image: url("midias/1g.png");
+    background-image: url("midias/brass-barstools-light-gray-island-with-turned-legs.jpg");
 }
 article{
     font-size: 2.5vh;
@@ -101,19 +101,19 @@ article{
     margin: auto;
 }
 div#cc{
-    background-image: url("midias/7g.png");
+    background-image: url("midias/banheiro\ 2.jpg");
     
 }
 div#ee{
-    background-image: url("midias/2g.png");}
+    background-image: url("midias/cozinha1.jpg");}
 div#gg{
-    background-image: url("midias/3g.png");}
+    background-image: url("midias/escada\ 1.jpg");}
 div#mm{
-    background-image: url("midias/4g.png");}
+    background-image: url("midias/cozinha\ 2.jpg");}
 div#oo{
-    background-image: url("midias/5g.png");}
+    background-image: url("midias/escada\ 2.jpg");}
 div#ss{
-    background-image: url("midias/marmore.jpg");}
+    background-image: url("midias/escada\ 3.webp");}
 h1{
     font-size: 3vh;
     color: rgb(209, 87, 87);
