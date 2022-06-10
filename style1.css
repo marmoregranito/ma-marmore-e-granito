@@ -64,25 +64,25 @@ div#rec{
     background-color: rgb(253, 253, 253);
     background-image: url("midias/2.png");
     border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
-    background-size: 100% 100%;
+    background-size: cover;
     width: 1330px;
     height: 500px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin:auto;
     box-shadow: 3px 5px  rgba(0, 0, 0, 0.315);
+    background-attachment: fixed;
 }
 div.let{
+    background-color: #1c1d1a93;
     border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
-    max-width: 650px;
+    max-width: 900px;
     max-height: 400px;
-    margin: 10px;
-    margin-top: 0px;
+    margin: auto;
     font-size: 2.5vh;
-    display: inline-block;
+   
 }
 div.mag{
-    display: inline-block;
-     background-size: 100% 100%;
+    margin: auto;
+    background-size: 100% 100%;
     border: 3px 3px 5px 5px solid rgba(0, 0, 0, 0.308);
     width: 650px;
     min-height: 300px;
@@ -96,7 +96,6 @@ div#bb{
 }
 article{
     font-size: 2.5vh;
-    background-color: #ffffff;
     width: 1340px;
     margin: auto;
 }
@@ -122,7 +121,11 @@ h1{
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.363);
     text-align: center;
     padding: 20px;
+    background-color: #07070794;
     padding-top: 5px;
+    max-width: 900px;
+    max-height: 400px;
+    margin: auto;
 }
 h2{
     font-size: 2.5vh;
@@ -133,6 +136,11 @@ h2{
     text-align: center;
     padding: 20px;
     padding-top: 5px;
+    background-color: #07070794;
+    padding-top: 5px;
+    max-width: 900px;
+    max-height: 400px;
+    margin: auto;
 }
 h3{
     font-size: 2vh;
@@ -140,6 +148,11 @@ h3{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3em;
+    background-color: #07070794;
+    padding-top: 5px;
+    max-width: 900px;
+    max-height: 400px;
+    margin: auto;
 }
 h4{
     font-size: 1.8vh;
@@ -147,6 +160,11 @@ h4{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
+    background-color: #07070794;
+    padding-top: 5px;
+    max-width: 900px;
+    max-height: 400px;
+    margin: auto;
 }
 h5{ 
     font-size: 1.5vh;
@@ -155,6 +173,11 @@ h5{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
+    background-color: #07070794;
+    padding-top: 5px;
+    max-width: 900px;
+    max-height: 400px;
+    margin: auto;
 }
 p{
     font-size: 1vh;
@@ -163,6 +186,11 @@ p{
     color: black;
     padding: 0px 80px;
     text-align: justify;
+    background-color: #07070794;
+    padding-top: 5px;
+    max-width: 900px;
+    max-height: 400px;
+    margin: auto;
    
 }
 footer{
